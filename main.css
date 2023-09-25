@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.order-summary .landing {
+  background-color: rgb(226 244 248/20%);
+  height: 100vh;
+}
+.order-summary .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(220 230 230);
+}
+.order-summary .card .image img {
+  max-width: 100%;
+}
+.order-summary .card .content h2 {
+  color: #333c65;
+  padding: 10px 0;
+}
+.order-summary .card .content p {
+  color: #747788;
+  line-height: 1.7;
+  padding: 10px 45px;
+  font-weight: bold;
+}
+.order-summary .card .content .plan-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fe;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px 30px;
+  border: 1px solid rgb(220 230 230/50%);
+}
+.order-summary .card .content .plan-box img {
+  width: 56px;
+}
+.order-summary .card .content .plan-box a {
+  font-weight: bold;
+  color: #203b72;
+}
+.order-summary .card .content .payment a {
+  display: block;
+  padding: 15px 0;
+}
+.order-summary .card .content .payment a:first-child {
+  background-color: #203b72;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15px;
+  margin: 5px 30px;
+}
+.order-summary .card .content .payment a:first-child:hover {
+  background-color: #274a91;
+}
+.order-summary .card .content .payment a:last-child {
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 75px;
+  color: #274a91;
+}
+.order-summary .card .content .payment a:last-child:hover {
+  color: #636885;
+}
